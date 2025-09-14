@@ -21,13 +21,17 @@ public class EmailScheduler {
     @Autowired
     private EmailService emailService;
 
-    /**
-     * This method runs every sunday at 8:00 AM server time.
-     * Use cron format: second, minute, hour, day of month, month, day(s) of week
-     */
+    @Value("${email.scheduler.enabled:false}")
+    private boolean isEnabled;
+
     @Scheduled(cron = "0 0 8 * * SUN")
-    public void sendDailyQuoteEmail() {
-        String testEmail = "fe8345537ebfa6";
+    public void sendWeeklyQuoteEmail() {
+        if (!isEnabled) {
+            log.info("📭 Email scheduler is disabled.");
+            return;
+        }
+
+        String testEmail = "Username";
         log.info("⏰ Triggering weekly quote email to {}", testEmail);
 
         emailService.sendWeeklyMotivation(testEmail);
