@@ -110,8 +110,11 @@ DiaryVerse uses Java, Spring Boot, and Maven.  The project structure follows sta
 *(Deployment instructions are not available from the provided files.  This section is omitted for now.)*
 
 
+   
 ## Project Structure 🗂️
 
+<pre> ```
+   
 DiaryVerse/
 ├── .mvn/ # Maven wrapper files
 ├── src/
@@ -134,7 +137,7 @@ DiaryVerse/
 ├── pom.xml # Maven project descriptor
 └── README.md # Project documentation
 
-
+``` </pre>
 
 
 ## Contributing 🤝
