@@ -112,11 +112,8 @@ DiaryVerse uses Java, Spring Boot, and Maven.  The project structure follows sta
 
 ## Project Structure 🗂️
 
-The project follows a standard Maven project structure.  Key directories include:
+## 📁 Project Structure
 
-* `src/main/java`: Contains the Java source code.
-* `src/main/resources`: Contains configuration files (including `application.properties`).
-* `pom.xml`: The Maven project object model file.
 
 
 ## Contributing 🤝
