@@ -113,26 +113,26 @@ DiaryVerse uses Java, Spring Boot, and Maven.  The project structure follows sta
 ## Project Structure 🗂️
 
 DiaryVerse/
-├── .mvn/                  # Maven wrapper files
-├── src/                   # Source code
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── netri/
-│   │   │           └── diaryverse/
-│   │   │               ├── controller/           # REST API controllers
-│   │   │               ├── model/                # Entity classes
-│   │   │               ├── repository/           # JPA repositories
-│   │   │               └── service/              # Business logic
-│   │   └── resources/
-│   │       ├── application.properties             # Application configuration
-│   │       └── templates/                        # Email templates
-│   └── test/                                      # Unit and integration tests
-├── .gitignore            # Git ignore rules
-├── mvnw                  # Maven wrapper script
-├── mvnw.cmd              # Maven wrapper script for Windows
-├── pom.xml               # Maven project descriptor
-└── README.md             # Project documentation
+├── .mvn/ # Maven wrapper files
+├── src/
+│ ├── main/
+│ │ ├── java/
+│ │ │ └── com/
+│ │ │ └── netri/
+│ │ │ └── diaryverse/
+│ │ │ ├── controller/ # REST API controllers
+│ │ │ ├── model/ # Entity classes
+│ │ │ ├── repository/ # JPA repositories
+│ │ │ └── service/ # Business logic
+│ │ └── resources/
+│ │ ├── application.properties # App config
+│ │ └── templates/ # Email templates
+│ └── test/ # Tests
+├── .gitignore # Git ignore rules
+├── mvnw # Maven wrapper script
+├── mvnw.cmd # Maven wrapper for Windows
+├── pom.xml # Maven project descriptor
+└── README.md # Project documentation
 
 
 
