@@ -1,13 +1,17 @@
-# DiaryVerse 
+# DiaryVerse -Your Diary, Your Universe!
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://example.com/build) <!-- Replace with actual build status URL if available -->
-[![License](https://img.shields.io/badge/license-Unspecified-lightgrey)](https://example.com/license) <!-- Replace with actual license URL if specified -->
-[![Version](https://img.shields.io/badge/version-0.0.1-SNAPSHOT-blue)](https://example.com/version)
+[![Java 8](https://img.shields.io/badge/Java-8-blue?logo=openjdk)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7-green?logo=springboot)](https://spring.io/projects/spring-boot)
+[![Maven](https://img.shields.io/badge/Maven-3.8.6-red?logo=apache-maven)](https://maven.apache.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)](https://www.mongodb.com/)
+[![Postman](https://img.shields.io/badge/Tested_with-Postman-orange?logo=postman)](https://www.postman.com/)
+[![Swagger](https://img.shields.io/badge/API_Docs-Swagger-blue?logo=swagger)](https://swagger.io/tools/swagger-ui/)
+
 
 
 ## Description ✍️
 
-DiaryVerse is a secure online journal application built using Java and Spring Boot.  It allows users to create, edit, and manage their personal diary entries.  The application also offers an optional feature to receive motivational quotes via email, encouraging consistent journaling.  DiaryVerse prioritizes user security and data privacy.
+**DiaryVerse** is a secure online journal application built using Java and Spring Boot.  It allows users to create, edit, and manage their personal diary entries.  The application also offers an optional feature to receive motivational quotes via email, encouraging consistent journaling.  DiaryVerse prioritizes user security and data privacy.
 
 
 ## Features ✨
@@ -95,21 +99,6 @@ The application is configured using an `application.properties` file (located in
 * **External API Keys:**  Keys for integrating with external APIs like ZenQuotes (for motivational quotes), WeatherStack (for weather data, if used), and Mailtrap (for testing email functionality).
 
 
-## Development 👨‍💻
-
-DiaryVerse uses Java, Spring Boot, and Maven.  The project structure follows standard Spring Boot conventions.  See the Project Structure section below.
-
-
-## Testing 🧪
-
-*(Testing details are not available from the provided files.  This section is omitted for now.)*
-
-
-## Deployment 🚢
-
-*(Deployment instructions are not available from the provided files.  This section is omitted for now.)*
-
-
    
 ## Project Structure 🗂️
 
@@ -194,12 +183,7 @@ We welcome contributions to DiaryVerse!  Please follow these guidelines:
 
 ## License 📜
 
-*(License information is not specified in the provided files.  This section is omitted for now.)*
-
-
-## Acknowledgments 🙏
-
-*(Acknowledgments would go here. This section is omitted for now.)*
+MIT License
 
 
 ## Support 🙋‍♂️
